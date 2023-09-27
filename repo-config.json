@@ -5,8 +5,8 @@
     "baseBranches": []
   },
   "scanSettingsSAST": {
-    "enableScan": false,
-    "scanPullRequests": false,
+    "enableScan": true,
+    "scanPullRequests": true,
     "incrementalScan": true,
     "baseBranches": [],
     "snippetSize": 10
@@ -28,5 +28,6 @@
     "workflowRules": {
       "enabled": true
     }
-"enableReachability": true
-
+"enableReachability": true  
+"enableLicenseViolations": true
+"strictMode": "warning"
