@@ -15,7 +15,6 @@
     "vulnerableCheckRunConclusionLevel": "failure",
     "displayMode": "diff",
     "useMendCheckNames": true
-    "strictMode": "warning"
   },
   "checkRunSettingsSAST": {
     "checkRunConclusionLevel": "failure",
@@ -29,6 +28,14 @@
     "workflowRules": {
       "enabled": true
     }
-"enableReachability": true  
 "enableLicenseViolations": true
+    {
+  "settingsInheritedFrom": "myorganization/whitesource-config@main",
+  "scanSettings": {
+      "enableReachability": true
+  },
+  "checkRunSettings": {
+    "strictMode": "warning"
+  }
+}
 
