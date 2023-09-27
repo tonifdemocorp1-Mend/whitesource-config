@@ -21,3 +21,8 @@ Change "enableScan":false to true to enable SAST scanning in the "scanSettingsSA
 Change "scanPullRequests":false to true to enable scanning on pull requests in the "scanSettingsSAST"{} section
 
 Add "strictMode": "warning" to enable partial scan warnings in the checkRunSettings{} section
+Add a proactive remediation strategy - Renovate with Smart Merge
+
+Add Code Source
+
+Do NOT modify "baseBranches": [],
