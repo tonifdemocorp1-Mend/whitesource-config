@@ -15,6 +15,7 @@
     "vulnerableCheckRunConclusionLevel": "failure",
     "displayMode": "diff",
     "useMendCheckNames": true
+    "strictMode": "warning"
   },
   "checkRunSettingsSAST": {
     "checkRunConclusionLevel": "failure",
@@ -30,4 +31,4 @@
     }
 "enableReachability": true  
 "enableLicenseViolations": true
-"strictMode": "warning"
+
