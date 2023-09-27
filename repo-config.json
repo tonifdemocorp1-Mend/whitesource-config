@@ -38,4 +38,15 @@
     "strictMode": "warning"
   }
 }
-
+{ 
+  "scanSettings": {
+    "baseBranches": []
+  },
+  "imageSettings": {
+    "imageTracing": {
+        "enableImageTracingPR": true,
+        "addDockerfilePath": true,
+        "addRepositoryCoordinates": true
+    }
+  }
+}
