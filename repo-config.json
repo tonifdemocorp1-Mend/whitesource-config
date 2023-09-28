@@ -40,9 +40,9 @@
          "config:base",
        "github>whitesource/merge-confidence:beta",
        "github>mend-toolkit/mend-examples//Repo-Integration/Renovate/smart-merge"
-      
+      ]
   
-
-
-    
+  }
+  }
+    }  
 
