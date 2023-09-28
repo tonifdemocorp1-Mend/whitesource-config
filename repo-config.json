@@ -1,51 +1,48 @@
 {
   "scanSettings": {
+   "enableLicenseViolations": true
+   "enableReachability": true
     "configMode": "AUTO",
     "configExternalURL": "",
     "baseBranches": []
-  },
-  "scanSettingsSAST": {
-    "enableScan": true,
-    "scanPullRequests": true,
-    "incrementalScan": true,
-    "baseBranches": [],
-    "snippetSize": 10
-  },
-  "checkRunSettings": {
-    "vulnerableCheckRunConclusionLevel": "failure",
-    "displayMode": "diff",
-    "useMendCheckNames": true
-  },
-  "checkRunSettingsSAST": {
-    "checkRunConclusionLevel": "failure",
-    "severityThreshold": "high"
-  },
-  "issueSettings": {
-    "minSeverityLevel": "LOW",
-    "issueType": "DEPENDENCY"
-  },
-  "remediateSettings": {
-    "workflowRules": {
-      "enabled": true
-    }
-"enableLicenseViolations": true
-    {
-  "settingsInheritedFrom": "myorganization/whitesource-config@main",
-  "scanSettings": {
-      "enableReachability": true
-  },
-  "checkRunSettings": {
-    "strictMode": "warning"
-  }
-} 
-  "scanSettings": {
-    "baseBranches": []
-  },
+    },
   "imageSettings": {
     "imageTracing": {
         "enableImageTracingPR": true,
         "addDockerfilePath": true,
         "addRepositoryCoordinates": true
-    }
+    },
+  "scanSettingsSAST": {
+    "enableScan": false,
+    "scanPullRequests": false,
+     "enableScan": true,
+    "scanPullRequests": true,
+  "incrementalscans":true,
+   "baseBranches": [],
+    "snippetsize": 10
+     },  
+    "checkRunSettings":{
+    "strictMode": "warning"
+    },
+  "checkRunSettings": {
+    "vulnerableCheckRunConclusionLevel": "failure",
+    "displayMode": "diff",
+    "useMendCheckNames": true
+   },
+  "remediateSettings": {
+    "workflowRules": {
+      "enabled": true
+      "enabled": false
+      {
+  "remediateSettings": {
+    "enableRenovate": true,
+    "extends": ["config:base"]
+         "config:base",
+       "github>whitesource/merge-confidence:beta",
+       "github>mend-toolkit/mend-examples//Repo-Integration/Renovate/smart-merge"
+      ]
   }
 }
+
+    
+
