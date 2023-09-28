@@ -29,6 +29,7 @@
     "displayMode": "diff",
     "useMendCheckNames": true
    @@ -26,7 +35,14 @@
+   },
   "remediateSettings": {
     "workflowRules": {
       "enabled": true
@@ -42,7 +43,7 @@
        "github>mend-toolkit/mend-examples//Repo-Integration/Renovate/smart-merge"
       ]
   }
-}
+
 
     
 
