@@ -5,7 +5,7 @@
     "baseBranches": [],
     "enableLicenseViolations": true,
     "enableReachability": true  
-   exploitability: true
+    exploitability: true
   },
   "imageSettings": {
     "imageTracing": {
