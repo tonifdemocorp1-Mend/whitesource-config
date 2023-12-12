@@ -5,6 +5,7 @@
     "baseBranches": [],
     "enableLicenseViolations": true,
     "enableReachability": true  
+    scanSettings.exploitability: true
   },
   "imageSettings": {
     "imageTracing": {
