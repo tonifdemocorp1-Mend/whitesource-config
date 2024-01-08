@@ -4,7 +4,7 @@
     "configExternalURL": "",
     "baseBranches": [],
     "enableLicenseViolations": true,
-    "enableReachability": true 
+    "enableReachability": true, 
     "exploitability": true
   },
   "imageSettings": {
@@ -35,17 +35,14 @@
     "minSeverityLevel": "LOW",
     "issueType": "DEPENDENCY"
   },
-  "remediateSettings": {
-    "workflowRules": {
-      "enabled": false
-    },
+ "remediateSettings": {
     "enableRenovate": true,
-    "extends": [
-       "config:base",
-       "github>whitesource/merge-confidence:beta",
-       "github>mend-toolkit/mend-examples//Repo-Integration/Renovate/smart-merge"
-      ]
+        "extends": ["mergeConfidence:all-badges"]
   }
+}
+      
+
+      
 
 
 
