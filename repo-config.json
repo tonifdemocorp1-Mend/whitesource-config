@@ -13,15 +13,14 @@
         "addDockerfilePath": true,
         "addRepositoryCoordinates": true
     }
-  },
-   "scanSettingsSAST": {
+  "scanSettingsSAST": {
     "enableScan": true,
     "enableRemediation": true,
     "scanPullRequests": true,
     "incrementalScan": true,
     "baseBranches": [],
     "snippetSize": 10
-  },
+  }
   "checkRunSettings": {
     "vulnerableCheckRunConclusionLevel": "failure",
     "displayMode": "diff",
